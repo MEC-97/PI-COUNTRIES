@@ -1,0 +1,31 @@
+.landing {
+    background-image: url('../../img/real.gif');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: right ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button {
+    background: #595959;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #000000;
+    font-size:20px;
+    padding: 8px 20px 10px 20px;
+    border: solid #121517 9px;
+    text-decoration: none;
+    font-family: 'zrnic', sans-serif;
+  }
+  
+  .button:hover {
+    background: #4d0b97d8;
+    text-decoration: none;
+  }
